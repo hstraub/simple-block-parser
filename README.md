@@ -34,3 +34,12 @@ What can be done to make this programm better:
 
 * ```sbt eclipse```
 * Eclipse: Import -> Existing Project -> ...
+
+# Zip Package
+
+Using the sbt-native-builder
+
+```
+sbt universal:packageBin
+```
+The zip file can be found in: ```target/universal/simpleblockparser-0.1.zip```
